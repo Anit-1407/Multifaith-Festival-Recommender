@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 from datetime import datetime
 
-API_KEY = "iPUDaX0M0TySuAoLHWTm3O3K9KdYBwKY"
+API_KEY = "iPUDaX0M0TySuAoLHWTm3O3K9KdYBwKY" #update API key if this is not working
 BASE_URL = "https://calendarific.com/api/v2/holidays"
 
 st.set_page_config(page_title="🪔 Multifaith Festival Recommender", layout="wide")
@@ -262,3 +262,4 @@ with c2:
         st.info("No upcoming festivals this month.")
     else:
         display_festivals(upcoming, "⏳ Upcoming Festivals This Month")
+
